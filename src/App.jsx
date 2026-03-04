@@ -5,6 +5,7 @@ import Services from "./components/pages/Services";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import MentionsLegales from "./components/pages/MentionsLegales";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -20,9 +21,7 @@ function App() {
         <Route path="mentions-legales" element={<MentionsLegales />} />
       </Routes>
 
-      <footer>
-        {/* TODO - Footer */}
-      </footer>
+      <Footer />
     </div>
   );
 }

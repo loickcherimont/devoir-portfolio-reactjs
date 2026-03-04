@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import './header.css';
+import "./header.css";
 
 function Header() {
     return <nav className="navbar navbar-expand-lg bg-dark text-uppercase justify-content-end" data-bs-theme="dark">
