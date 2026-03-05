@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import Header from "./components/header/Header";
-import Home from "./components/pages/Home";
+import Home from "./components/pages/home/Home";
 import Services from "./components/pages/Services";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
@@ -9,7 +9,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="nunito-sans--body">
+    <div className="nunito-sans--regular">
       <Header />
 
       {/* Routing */}
