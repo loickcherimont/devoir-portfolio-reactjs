@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import Header from "./components/header/Header";
 import Home from "./components/pages/home/Home";
-import Services from "./components/pages/Services";
+import Services from "./components/pages/services/Services";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import MentionsLegales from "./components/pages/MentionsLegales";
