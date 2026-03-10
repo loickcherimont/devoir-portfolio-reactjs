@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import imgBanner from '../../../assets/img/banner.jpg';
 import ServiceCard from './ServiceCard';
 import "./services.css";
 
@@ -23,14 +22,14 @@ function Services() {
 
         let ignore = false;
 
-        fetchServiceCardInfos('./api.services.json');
+        fetchServiceCardInfos('./api/services.json');
 
         return () => {
             ignore = true;
         }
     }, []);
     return <>
-        <img src={imgBanner} className="img-fluid" alt="Bannière" />
+        <img src={`./img/banner.jpg`} className="img-fluid" alt="Bannière" />
         <section className="d-flex flex-column align-items-center">
             <header className="d-flex flex-column align-items-center justify-content-center text-center">
                 <h1 className="nunito-sans--bold">Mon offre de services</h1>
