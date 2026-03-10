@@ -1,0 +1,54 @@
+[
+    [
+        {
+            "id": 1,
+            "src": "fresh-food.jpg",
+            "alt": "Aperçu du site Fresh Food",
+            "title": "Fresh Food",
+            "shortDescription": "Site de vente de produits frais en ligne",
+            "footer": "Site réalisé avec PHP et MySQL"
+        },
+        {
+            "id": 2,
+            "src": "restaurant-japonais-akira.jpg",
+            "alt": "Aperçu du site Restaurant Akira",
+            "title": "Restaurant Akira",
+            "shortDescription": "Site de vente de produits frais en ligne",
+            "footer": "Site réalisé avec WordPress"
+        },
+        {
+            "id": 3,
+            "src": "espace-bien-etre.jpg",
+            "alt": "Aperçu du site Espace bien-être",
+            "title": "Espace bien-être",
+            "shortDescription": "Site de vente de produits frais en ligne",
+            "footer": "Site réalisé avec LARAVEL"
+        }
+    ],
+    [
+        {
+            "id": 4,
+            "src": "seo.jpg",
+            "alt": "Seo et tous les métiers autour",
+            "title": "SEO",
+            "shortDescription": "Amélioration du référencement d'un site e-commerce",
+            "footer": "Utilisations des outils SEO"
+        },
+        {
+            "id": 5,
+            "src": "coder.jpg",
+            "alt": "Editeur de code pour parler de la création d'API",
+            "title": "Création d'une API",
+            "shortDescription": "Création d'une API RESTFULL publique",
+            "footer": "PHP - SYMFONY"
+        },
+        {
+            "id": 6,
+            "src": "screens.jpg",
+            "alt": "Ordinateurs sur le maquettage d'un site",
+            "title": "Maquette d'un site web",
+            "shortDescription": "Création du prototype d'un site",
+            "footer": "Réalisé avec FIGMA"
+        }
+    ]
+]
