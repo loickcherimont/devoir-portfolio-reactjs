@@ -1,5 +1,4 @@
 import './home.css';
-import johnDoeAbout from '../../../assets/img/john-doe-about.jpg';
 import Skill from '../../Skill';
 import Modal from '../../Modal';
 
@@ -17,7 +16,7 @@ function Home() {
                 <div className="row shadow rounded">
                     <div className="col-md d-flex flex-column gap-3">
                         <h3 className="nunito-sans--bold">A propos</h3>
-                        <img src={johnDoeAbout} alt="Portrait de John Doe" className="img-fluid" />
+                        <img src={`./img/john-doe-about.jpg`} alt="Portrait de John Doe" className="img-fluid" />
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur iure consectetur quibusdam accusamus repellat numquam suscipit repellendus ducimus illo quaerat eius deserunt necessitatibus, odit amet harum asperiores beatae maiores. Repellat.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur iure consectetur quibusdam accusamus repellat numquam suscipit repellendus ducimus illo quaerat eius deserunt necessitatibus, odit amet harum asperiores beatae maiores. Repellat.</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur iure consectetur quibusdam accusamus repellat numquam suscipit repellendus ducimus illo quaerat eius deserunt necessitatibus, odit amet harum asperiores beatae maiores. Repellat.</p>
