@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -24,4 +26,10 @@
   font-variation-settings:
     "wdth" 100,
     "YTLC" 500;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
