@@ -1,0 +1,13 @@
+/* .mentions-legales h3 {
+    border-bottom: 3px solid #0d6efd;
+    padding: 5px;
+} */
+
+.mentions-legales__header::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5px;
+    background-color: #0d6efd;
+    margin: 0 auto;
+}
