@@ -23,7 +23,7 @@
 
 1. **Cloner le dépôt**
 ```bash
-   git https://github.com/loickcherimont/devoir-portfolio-reactjs.git
+   git clone https://github.com/loickcherimont/devoir-portfolio-reactjs.git
    cd ./devoir-portfolio-reactjs
 ```
 
