@@ -1,0 +1,8 @@
+.mentions-legales__header::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5px;
+    background-color: #0d6efd;
+    margin: 0 auto;
+}

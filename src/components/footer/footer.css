@@ -1,0 +1,16 @@
+.socials__menu a {
+    color: #6c757d;; /* On hover, link become "text-light" */
+}
+
+.socials__menu a:hover {
+    color: #ffffff; /* On hover, link become "text-light" */
+}
+
+a {
+    transition: all ease-in 500ms;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
