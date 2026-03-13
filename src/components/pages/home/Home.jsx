@@ -1,11 +1,10 @@
 import './home.css';
 import Skill from './Skill';
 import Modal from './modal/Modal';
-import { useState } from 'react';
 
 function Home() {
 
-    const [skills, _] = useState([
+    const skills = [
         {
             color: "danger",
             progressValue: 90,
@@ -34,7 +33,7 @@ function Home() {
             progressValue: 50,
             tech: "REACT",
         }
-    ]);
+    ];
 
     return <div className="homepage">
         {/* Hero */}
