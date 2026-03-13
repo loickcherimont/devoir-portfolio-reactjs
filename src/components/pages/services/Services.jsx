@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import ServiceCard from './ServiceCard';
-import "./services.css";
 
 function Services() {
     const [serviceCardInfos, setServiceCardInfos] = useState([]);
@@ -35,7 +34,7 @@ function Services() {
                 <h1 className="nunito-sans--bold">Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
             </header>
-            <hr class="border border-primary border-3 opacity-75" style={{ width: "25rem"}}/>
+            <hr className="border border-primary border-3 opacity-75" style={{ width: "25rem"}}/>
             <div className="row gap-3 justify-content-center p-3">
                 {serviceCardInfos.length !== 0 ? serviceCardInfos.map((serviceCardInfo, idx) => <ServiceCard key={idx} serviceCardInfo={serviceCardInfo} />) : null}
             </div>

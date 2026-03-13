@@ -1,8 +1,12 @@
-.nav-link:hover {
+.app-header__nav-link {
+    display: block;
+}
+
+.app-header__nav-link:hover {
     text-decoration: underline;
 }
 
-.nav-link.active {
+.app-header__nav-link.active {
     text-decoration: underline;
     font-weight: bold;
 }
