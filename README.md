@@ -39,6 +39,6 @@
    npm run dev
 ```
 
-4. L'application est disponible à cette adresse: [Lien vers l'application](http://localhost:5173)
+4. Une fois lancée, l'application est disponible à cette adresse: [Lien vers l'application](http://localhost:5173)
 
 
