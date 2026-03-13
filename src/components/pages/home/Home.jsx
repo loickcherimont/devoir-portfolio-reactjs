@@ -42,6 +42,7 @@ function Home() {
             <h2>Développeur web full stack</h2>
             <Modal />
         </section>
+        {/* About and skills */}
         <section className="p-3">
             <div className="container">
                 <div className="row shadow rounded">

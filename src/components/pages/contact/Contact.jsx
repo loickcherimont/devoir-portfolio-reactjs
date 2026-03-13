@@ -4,8 +4,6 @@ import "./contact.css";
 import FormField from "./FormField";
 
 function Contact() {
-
-    // Todo: use .contact__header for styling header into all /pages
     return <>
         <section className="contact p-3">
             <div className="contact__header d-flex flex-column align-items-center justify-content-center text-center">
